@@ -1,0 +1,11 @@
+station,EFI_status,EFI_available_to_SCADA,relevant_to_tripped_source_localization,scan_order_from_tripped_source,is_first_not_operated_boundary,interpretation
+ECE201,Not operated,True,False,,False,EFI available to SCADA but outside the B09-fed pre-fault localization chain.
+ME201,Not operated,True,False,,False,EFI available to SCADA but outside the B09-fed pre-fault localization chain.
+ECE202,Not operated,True,False,,False,EFI available to SCADA but outside the B09-fed pre-fault localization chain.
+ME202,Not operated,True,False,,False,EFI available to SCADA but outside the B09-fed pre-fault localization chain.
+ECE203,Not operated,True,False,,False,EFI available to SCADA but outside the B09-fed pre-fault localization chain.
+ME203,Not operated,True,False,,False,EFI available to SCADA but outside the B09-fed pre-fault localization chain.
+ECE204,Not operated,True,True,4,False,Relevant: EFI not operated; clean-fault boundary may be upstream in the scan direction.
+ME204,Not operated,True,True,3,False,Relevant: EFI not operated; clean-fault boundary may be upstream in the scan direction.
+ECE205,Not operated,True,True,2,False,Relevant: EFI not operated; clean-fault boundary may be upstream in the scan direction.
+ME205,Not operated,True,True,1,True,Relevant: EFI not operated; clean-fault boundary may be upstream in the scan direction.

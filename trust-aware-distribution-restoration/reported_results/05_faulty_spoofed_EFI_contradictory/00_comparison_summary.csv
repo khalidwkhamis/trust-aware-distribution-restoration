@@ -1,0 +1,3 @@
+controller,true_fault,observed_pattern_consistent,first_apparent_boundary,trust_state,energizing_allowed,unsafe_transitions,true_fault_reenergizations,final_nominal_served_load_A,outcome
+Naive EFI-trusting baseline,ME202-ECE203,False,ECE201-ME201,Not evaluated,True,1,1,45.0,"Uses first false boundary, then B09 backfeed reaches true ME202-ECE203 fault and B09 trips."
+Trust-aware,ME202-ECE203,False,ECE201-ME201,Untrusted,False,0,0,100.0,"Detects Operated->Not operated->Operated contradiction, blocks energizing restoration, remains in Safe Hold."

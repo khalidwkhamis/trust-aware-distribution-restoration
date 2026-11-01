@@ -1,0 +1,11 @@
+order_from_A01,station,EFI_status,last_operated_boundary,first_not_operated_boundary,interpretation,inferred_fault_cable
+1,ECE201,Operated,False,False,EFI operated: earth-fault current passed this station; fault is downstream toward B09.,ECE203-ME203
+2,ME201,Operated,False,False,EFI operated: earth-fault current passed this station; fault is downstream toward B09.,ECE203-ME203
+3,ECE202,Operated,False,False,EFI operated: earth-fault current passed this station; fault is downstream toward B09.,ECE203-ME203
+4,ME202,Operated,False,False,EFI operated: earth-fault current passed this station; fault is downstream toward B09.,ECE203-ME203
+5,ECE203,Operated,True,False,EFI operated: earth-fault current passed this station; fault is downstream toward B09.,ECE203-ME203
+6,ME203,Not operated,False,True,"EFI not operated: for a clean E/F pattern, fault is upstream toward A01.",ECE203-ME203
+7,ECE204,Not operated,False,False,"EFI not operated: for a clean E/F pattern, fault is upstream toward A01.",ECE203-ME203
+8,ME204,Not operated,False,False,"EFI not operated: for a clean E/F pattern, fault is upstream toward A01.",ECE203-ME203
+9,ECE205,Not operated,False,False,"EFI not operated: for a clean E/F pattern, fault is upstream toward A01.",ECE203-ME203
+10,ME205,Not operated,False,False,"EFI not operated: for a clean E/F pattern, fault is upstream toward A01.",ECE203-ME203

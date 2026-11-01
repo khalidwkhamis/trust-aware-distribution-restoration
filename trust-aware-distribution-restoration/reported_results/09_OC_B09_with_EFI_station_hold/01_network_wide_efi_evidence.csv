@@ -1,0 +1,11 @@
+station,EFI_status,EFI_available_to_SCADA,relevant_to_B09_localization,scan_order_from_B09,is_last_operated_EFI,is_first_not_operated_EFI,interpretation
+ECE201,Not operated,True,False,,False,False,EFI available to SCADA but outside the B09 pre-fault localization chain for this trip.
+ME201,Not operated,True,False,,False,False,EFI available to SCADA but outside the B09 pre-fault localization chain for this trip.
+ECE202,Not operated,True,False,,False,False,EFI available to SCADA but outside the B09 pre-fault localization chain for this trip.
+ME202,Not operated,True,False,,False,False,EFI available to SCADA but outside the B09 pre-fault localization chain for this trip.
+ECE203,Not operated,True,False,,False,False,EFI available to SCADA but outside the B09 pre-fault localization chain for this trip.
+ME203,Not operated,True,False,,False,False,EFI available to SCADA but outside the B09 pre-fault localization chain for this trip.
+ECE204,Not operated,True,True,4,False,False,EFI not operated downstream of the useful transition boundary.
+ME204,Not operated,True,True,3,False,True,First station beyond positive EFI evidence; for this O/C case it is conservatively treated as the suspect station/region.
+ECE205,Operated,True,True,2,True,False,Last positive EFI evidence in B09 power-flow direction.
+ME205,Operated,True,True,1,False,False,EFI operated; O/C disturbance evidence propagated through this station in the B09 power-flow direction.

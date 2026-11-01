@@ -1,0 +1,2 @@
+true_fault,tripped_source,EFI_scan_direction,first_relevant_EFI,first_relevant_EFI_status,inferred_fault,B09_reclosed,station_end_isolation,NOP_closed_for_backfeed,A01_final_current_A,B09_final_current_A,A01_nominal_served_load_A,total_nominal_restored_A,final_min_voltage_pu,final_max_branch_current_A,true_fault_energized,unintended_source_parallel,final_safe
+ME205-B09,B09,B09->ME205->ECE205->ME204->ECE204->NOP,ME205,Not operated,ME205-B09,False,ME205_to_B09 open,True,306.69933627335655,0.0,300,300,0.967835979945528,306.69933627335655,False,False,True

@@ -1,0 +1,3 @@
+controller,true_fault,fresh_current_EFI_would_infer,replayed_EFI_infers,snapshot_age_s,T_fresh_s,freshness_check,trust_state,energizing_restoration_allowed,unsafe_transitions,true_fault_reenergizations,final_nominal_served_load_A,outcome
+EFI-trusting baseline,ECE203-ME203,ECE203-ME203,ECE201-ME201,12.0,5.0,Ignored,Assumed trusted,True,1,1,45.0,Stale EFI accepted -> wrong isolation -> NOP close backfeeds true ECE203-ME203 fault -> B09 trips.
+Trust-aware,ECE203-ME203,ECE203-ME203,ECE201-ME201,12.0,5.0,Applied,Untrusted,False,0,0,100.0,12 s-old EFI exceeds 5 s freshness threshold -> Untrusted -> energizing restoration blocked -> Safe Hold.

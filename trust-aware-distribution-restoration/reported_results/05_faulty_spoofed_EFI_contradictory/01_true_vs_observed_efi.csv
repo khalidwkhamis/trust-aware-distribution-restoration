@@ -1,0 +1,11 @@
+order_from_A01,station,true_EFI,observed_EFI,indication_correct,corruption_type,contradiction_after_not_operated,interpretation
+1,ECE201,Operated,Operated,True,,False,Observed EFI operated: fault current appears to have passed this station.
+2,ME201,Operated,Not operated,False,False negative / spoof,False,Observed EFI not operated: a naive controller may interpret the fault as upstream of this station.
+3,ECE202,Operated,Operated,True,,True,Observed EFI operated: fault current appears to have passed this station.
+4,ME202,Operated,Operated,True,,True,Observed EFI operated: fault current appears to have passed this station.
+5,ECE203,Not operated,Not operated,True,,False,Observed EFI not operated: a naive controller may interpret the fault as upstream of this station.
+6,ME203,Not operated,Not operated,True,,False,Observed EFI not operated: a naive controller may interpret the fault as upstream of this station.
+7,ECE204,Not operated,Not operated,True,,False,Observed EFI not operated: a naive controller may interpret the fault as upstream of this station.
+8,ME204,Not operated,Not operated,True,,False,Observed EFI not operated: a naive controller may interpret the fault as upstream of this station.
+9,ECE205,Not operated,Not operated,True,,False,Observed EFI not operated: a naive controller may interpret the fault as upstream of this station.
+10,ME205,Not operated,Not operated,True,,False,Observed EFI not operated: a naive controller may interpret the fault as upstream of this station.

@@ -1,0 +1,7 @@
+step,controller,action,decision_basis,first_apparent_fault_boundary,true_fault_cable,A01_current_A,B09_current_A,served_nominal_load_A,true_fault_energized,actual_safe,unsafe_transition
+0,Naive EFI-trusting baseline,A01 trips on Earth Fault,Read observed EFI indications.,ECE201-ME201,ME202-ECE203,0.0,100.41590888519879,100.0,False,True,False
+1,Naive EFI-trusting baseline,Open ECE201_to_ME201,Baseline uses first apparent boundary ECE201=Operated -> ME201=Not operated and ignores later contradictory Operated indications.,ECE201-ME201,ME202-ECE203,0.0,100.41590888519879,100.0,False,True,False
+2,Naive EFI-trusting baseline,Reclose A01 breaker,Restore healthy upstream section according to the wrong inferred boundary.,ECE201-ME201,ME202-ECE203,45.041924514268295,100.41590888519879,145.0,False,True,False
+3,Naive EFI-trusting baseline,Open ME201_to_ECE201,Complete isolation of the wrong inferred cable.,ECE201-ME201,ME202-ECE203,45.041924514268295,100.41590888519879,145.0,False,True,False
+4,Naive EFI-trusting baseline,Close ME203_to_ECE204 NOP,Baseline assumes the wrong cable is isolated and authorizes B09 backfeed without resolving the contradictory EFI evidence.,ECE201-ME201,ME202-ECE203,45.041924514268295,260.38271606339225,300.0,True,False,True
+5,Naive EFI-trusting baseline,B09 trips after backfeed energizes the true fault,Actual ME202-ECE203 fault was energized from B09.,ECE201-ME201,ME202-ECE203,45.041924514268295,0.0,45.0,False,True,False

@@ -1,0 +1,3 @@
+controller,true_fault,observed_inferred_fault,trust_result,energizing_restoration_allowed,unsafe_transitions,faulted_section_reenergizations,final_nominal_served_load_A,final_actual_safe,outcome
+EFI-trusting baseline,ECE201-ME201,A01-ECE201,Observed EFI blindly accepted,True,1,1,0.0,True,Wrong localization -> NOP close backfeeds true fault -> B09 trips.
+Trust-aware,ECE201-ME201,A01-ECE201,Untrusted,False,0,0,100.0,True,Insufficient EFI evidence -> energizing transition blocked -> Safe Hold; B09 normal side remains supplied.

@@ -1,0 +1,11 @@
+order_from_A01,station,true_EFI,observed_EFI,indication_correct,fault_type_if_incorrect
+1,ECE201,Operated,Not operated,False,False negative
+2,ME201,Not operated,Not operated,True,
+3,ECE202,Not operated,Not operated,True,
+4,ME202,Not operated,Not operated,True,
+5,ECE203,Not operated,Not operated,True,
+6,ME203,Not operated,Not operated,True,
+7,ECE204,Not operated,Not operated,True,
+8,ME204,Not operated,Not operated,True,
+9,ECE205,Not operated,Not operated,True,
+10,ME205,Not operated,Not operated,True,
