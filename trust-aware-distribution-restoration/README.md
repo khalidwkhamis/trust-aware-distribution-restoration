@@ -86,7 +86,7 @@ The trust-aware controller classifies critical supervisory evidence as **Trusted
 | `12_communication_loss_dos.py` | Selective station SCADA communication loss / DoS | Tests dropped remote commands/status while local feeder-head protection remains available |
 | `13_unauthorized_command_attack.py` | Forged unauthorized switching command | Tests command authorization and X_safe rejection before fault isolation |
 | `14_load_sensitivity.py` | Uniform +/-10% load sensitivity | Tests electrical robustness of normal and three clean-fault restored topologies |
-| `15_terminal_EFI_NOP_cable_fault.py` | Terminal EFI / NOP-cable E/F | Tests the all-operated B09 EFI chain, terminal-cable inference, one-sided isolation, and direct B09 reclose |
+| `15_terminal_EFI_NOP_cable_fault.py` | NOP Special Case — terminal EFI / NOP-cable E/F | Tests the all-operated B09 EFI chain, terminal-cable inference, one-sided isolation, and direct B09 reclose |
 
 ## Software requirements
 
