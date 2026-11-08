@@ -1,0 +1,3 @@
+scenario,controller,unauthorized_commands_executed,unsafe_transitions,true_fault_reenergizations,final_trust_state,final_nominal_served_load_A,final_A01_current_A,final_B09_current_A,final_max_branch_current_A,final_min_voltage_pu,final_actual_safe,outcome
+unauthorized_NOP_close,Unprotected command-path baseline,1,1,1,Assumed trusted,0.0,0.0,0.0,0.0,,True,Forged NOP-close executes -> B09 backfeeds ECE203-ME203 -> one unsafe transition / true-fault re-energization -> B09 trips.
+unauthorized_NOP_close,Trust-aware,0,0,0,Untrusted,100.0,0.0,100.41590888519879,100.41590888519879,0.9948104400254997,True,Command mismatches authorized restoration state and fails X_safe candidate check -> rejected -> B09 healthy side remains supplied.
