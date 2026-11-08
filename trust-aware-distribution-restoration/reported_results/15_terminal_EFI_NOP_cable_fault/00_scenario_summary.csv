@@ -1,0 +1,2 @@
+true_fault,tripped_source,EFI_scan_direction,all_relevant_EFIs_operated,inferred_fault,ME203_side_already_open,ECE204_side_opened_for_isolation,B09_reclosed,NOP_closed_for_transfer,A01_final_current_A,B09_final_current_A,total_nominal_restored_A,final_min_voltage_pu,final_max_branch_current_A,final_safe
+ME203-ECE204,B09,B09->ME205->ECE205->ME204->ECE204->NOP,True,ME203-ECE204,True,True,True,False,202.00759516677368,100.41590888519879,300.0,0.9860949853247484,202.00759516677368,True
